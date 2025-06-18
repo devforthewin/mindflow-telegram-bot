@@ -1,0 +1,12 @@
+# Prod-specific
+docker-compose.prod.yml
+client/Dockerfile.prod
+server/Dockerfile.prod
+.github/workflows/deploy.yml
+server/README-server.md
+
+# Prod-only env
+.env.prod
+
+/node_modules
+node_modules/
